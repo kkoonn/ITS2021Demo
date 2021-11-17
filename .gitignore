@@ -2,4 +2,7 @@
 .DS_Store
 .cache
 
+__pycache__
+
 data
+mlruns
