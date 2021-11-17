@@ -13,4 +13,6 @@ ENV TERM xterm
 RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
-#RUN pip install -r requirements.txt
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt

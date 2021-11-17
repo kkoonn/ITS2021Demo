@@ -3,7 +3,7 @@ services:
   python3:
     restart: always
     build: .
-    container_name: 'ITS2021-Demo'
+    container_name: 'ITS2021Demo'
     working_dir: '/root/'
     tty: true
     volumes:
