@@ -1,13 +1,10 @@
-.viminfo
-.DS_Store
-.cache
-.ipynb_checkpoints
-.config
-.bash_history
-*.ipynb
+.*
 
 __pycache__
 
 data
 mlruns
 catboost_info
+0_*
+*.ipynb
+[0-9]*_[0-9]*
